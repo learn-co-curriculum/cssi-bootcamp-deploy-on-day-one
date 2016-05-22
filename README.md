@@ -1,6 +1,6 @@
 # Your first deployment
 
-There is no better way to feel like a developer than by actually becoming one, which you do by shipping code. In this lab, you'll be altering the CSS and HTML of a profile template and then deploying it to a brand new repository. Later today you'll learn how to create a new repository on github and push your changes up from your local machine.
+There is no better way to feel like a developer than by actually becoming one, which you do by shipping code. In this lab, you'll be altering the CSS and HTML of a [profile template](http://learn-co-curriculum.github.io/cssi-bootcamp-deploy-on-day-one/) and then deploying it to a brand new repository. Later today you'll learn how to create a new repository on github and push your changes up from your local machine.
 
 Your assignment is to create a student profile for someone else in the CSSI Training program. By the end of this project, every student should have a profile for themselves that was created by someone else and every student should have created a profile for someone else.
 
@@ -41,6 +41,7 @@ The structure of this project looks something like this:
 ### Files you will need to alter:
   * `index.html`
   * `css/styles.css`
+  * `css/custom.css`
 
 ## Getting Started
 
@@ -56,29 +57,28 @@ The first thing you'll need to do is add your image assets.
 
 #### Add your Profile page
 
-  1. Copy another students `student-name.html` file and rename it to your name. 
-  2. Double-check that you added your cover and profile photo to the `img` directory
-  3. Open up `your-name.html` and modify it with your information (links, bio etc).
+  1. Double-check that you added your cover and profile photo to the `img` directory
+  2. Open up `index.html` and modify it with your partners information (links, bio etc).
      * Adding the images is a bit tricky! Take a look at the `css/styles.css` or use inspect element for an idea of where those images come from.
-
-#### Add To The Index
-
-  1. Open up `index.html`
-  2. Copy one of the existing `div`s to make a new slot for you. Add in your information
-  3. Re-use the profile image from your profile page and link to your profile page
 
 #### Taking stock
 
-Now that you have everything locally, let's take stock of what we have. Take a look at `index.html` and `profile.html` in the browser. To do this: 
+Now that you have everything locally, let's take stock of what we have. Take a look at `index.html` in the browser. To do this: 
 
 * If you're working on a Mac, you can just find the file locally using Finder and click to view the webpage in Chrome. 
-* If you're working on Nitrous, it's a bit more involved: first push your changes to your GitHub fork, then download your GitHub repo to your computer as a zip file, unzip it and open up the HTML files locally. 
 
 You may need to cycle a few times until everything looks good. Once you're happy with it, you're ready to submit.
 
-#### Submit!
+#### Extensions
 
-  1. Easy, just submit a Pull Request back to us. We'll take a look ASAP and get your change merged and deployed.
+Once you've had a chance to get your partner's profile page filled out with the correct content, take some time to start messing around with the CSS on the page - change colors, fonts, sizes, and event try some CSS animations. We've created the `custom.css` stylesheet for you to tinker around in. The sky is the limit!
 
+#### Create a Github Repository (Part 2)!
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/learn-deploy-on-day-one' title='Your first deployment'>Your first deployment</a> on Learn.co and start learning to code for free.</p>
+(We'll do this together the first time)
+
+  1. Create a new repository on GitHub
+  2. Initialize a git repository for your project (git init)
+  3. Add and commit all of your changes (git add ., git commit -m "message")
+  4. Push your changes to your GitHub repository (git push)
+  5. Create a gh-pages branch to publish your site!
