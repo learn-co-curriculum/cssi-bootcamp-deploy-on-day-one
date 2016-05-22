@@ -1,0 +1,84 @@
+# Your first deployment
+
+There is no better way to feel like a developer than by actually becoming one, which you do by shipping code. In this lab, you'll be altering the CSS and HTML of a profile template and then deploying it to a brand new repository. Later today you'll learn how to create a new repository on github and push your changes up from your local machine.
+
+Your assignment is to create a student profile for someone else in the CSSI Training program. By the end of this project, every student should have a profile for themselves that was created by someone else and every student should have created a profile for someone else.
+
+We have already created a template, but you need to use your HTML and CSS skills to submit an updated version of the profile with your information. Here we go!
+
+## Requirements
+
+You'll need the following information about yourself:
+
+* Name
+* Blog Url (if you have one)
+* Twitter URL
+* LinkedIn URL
+* Github URL
+* Tagline
+* Profile Picture (something normal, a headshot, of a good reusable size that can be easily cropped)
+* Background Picture (like your cover picture from Twitter)
+* Previous Work Experience
+* Short Bio
+* Education
+
+## Structure
+
+The structure of this project looks something like this:
+
+```text
+├── README.md 
+├── css
+│   ├── css style sheets
+├── assets
+|   |__ img
+|   |   ├── lots of images
+|   |__ fonts
+|   |   ├── some fonts
+├── index.html (The profile page)
+```
+
+### Files you will need to alter:
+  * `index.html`
+  * `css/styles.css`
+
+## Getting Started
+
+Fork and clone this lab.
+
+#### Add your images
+
+The first thing you'll need to do is add your image assets.
+
+  * Add two pictures to the `assets/img` folder (they can be jpg or png files):
+    * A cover picture (named `student-name-cover.jpg` or `student-name-cover.png`)
+    * A profile picture (name `student-name.jpg` or `student-name.png`)
+
+#### Add your Profile page
+
+  1. Copy another students `student-name.html` file and rename it to your name. 
+  2. Double-check that you added your cover and profile photo to the `img` directory
+  3. Open up `your-name.html` and modify it with your information (links, bio etc).
+     * Adding the images is a bit tricky! Take a look at the `css/styles.css` or use inspect element for an idea of where those images come from.
+
+#### Add To The Index
+
+  1. Open up `index.html`
+  2. Copy one of the existing `div`s to make a new slot for you. Add in your information
+  3. Re-use the profile image from your profile page and link to your profile page
+
+#### Taking stock
+
+Now that you have everything locally, let's take stock of what we have. Take a look at `index.html` and `profile.html` in the browser. To do this: 
+
+* If you're working on a Mac, you can just find the file locally using Finder and click to view the webpage in Chrome. 
+* If you're working on Nitrous, it's a bit more involved: first push your changes to your GitHub fork, then download your GitHub repo to your computer as a zip file, unzip it and open up the HTML files locally. 
+
+You may need to cycle a few times until everything looks good. Once you're happy with it, you're ready to submit.
+
+#### Submit!
+
+  1. Easy, just submit a Pull Request back to us. We'll take a look ASAP and get your change merged and deployed.
+
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/learn-deploy-on-day-one' title='Your first deployment'>Your first deployment</a> on Learn.co and start learning to code for free.</p>
